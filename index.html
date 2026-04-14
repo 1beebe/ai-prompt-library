@@ -738,7 +738,7 @@ TO BE ACCURATE. USERS ARE RESPONSIBLE FOR REVIEWING ALL AI OUTPUTS BEFORE USE.
   <div class="card-grid" id="cardGrid">
     <!-- Email Connector setup notice — shown when Email Connector filter is active -->
     <div class="m365-notice" id="m365Notice">
-      <strong>About Email Connector prompts:</strong> These prompts work when Claude has been connected to your productivity suite (email and files). If you paste one of these and Claude says it can't see your email, the connector hasn't been set up yet. Ask your IT admin or the person who manages your AI account to enable the Email Connector integration.
+      <strong>About Email Connector prompts:</strong> These prompts work when your AI assistant has been connected to your productivity suite (email and files). If you paste one of these and the AI says it can't access your email, the connector hasn't been set up yet. Ask your IT admin or the person who manages your AI account to enable the integration.
     </div>
     <!-- Cards injected by JS -->
     <div class="empty-state" id="emptyState">
@@ -1945,7 +1945,7 @@ function applyFilters() {
     if (show) visible++;
   });
   emptyState.classList.toggle('visible', visible === 0);
-  m365Notice.classList.toggle('visible', activeTeam === 'Email Connector');
+  m365Notice.classList.toggle('visible', activeTeam === 'M365');
 
   const hasFilter = activeTeam !== 'all' || searchQuery || activeDifficulty || activeCategory;
   const clearLink = hasFilter
