@@ -1,0 +1,466 @@
+[
+  {
+    "team": "Thought Partner",
+    "title": "Unlock the Right Questions",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "I need to [accomplish a goal] but I'm not sure where to start. Can you ask me a few questions to help me think through what I actually need?",
+    "tip": "Don't overthink your answer — just respond naturally. The AI will keep asking until the picture is clear."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Break Down the Overwhelm",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "I'm feeling stuck on [problem or project]. I don't know where to begin. Help me break this into smaller steps I can actually act on today.",
+    "tip": "Be honest about what's stopping you — naming the blocker out loud often makes it easier to move past it."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Figure Out What You Actually Need",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "I want to [general goal], but I'm not sure if I need a plan, a document, a decision, or just to think out loud. Can you help me figure out what kind of help I actually need right now?",
+    "tip": "This is a great first message for any fuzzy situation — it helps you show up with more clarity."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Argue the Other Side",
+    "category": "Analysis",
+    "difficulty": "Going Deeper",
+    "prompt": "Here is my plan / position: [describe it]. I want you to argue the strongest possible case against it. What am I missing? What would a skeptic say?",
+    "tip": "Read the pushback without defending yourself first — the goal is to find the real holes, not win the argument."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Find the Hidden Risks",
+    "category": "Analysis",
+    "difficulty": "Going Deeper",
+    "prompt": "I'm about to [make a decision or take an action]. What are the 3 most likely ways this could go wrong that I'm probably not thinking about?",
+    "tip": "Be specific about what you're doing — vague inputs produce generic risks. The more detail, the more useful the answer."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Refine the Draft",
+    "category": "Writing",
+    "difficulty": "Going Deeper",
+    "prompt": "Here's what I have so far: [paste draft]. What's the weakest part? What would make this clearer or more persuasive? Don't rewrite it — just tell me what to fix.",
+    "tip": "Asking the AI not to rewrite keeps you in the driver's seat — you improve it yourself with better direction."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Multi-Step Decision Memo",
+    "category": "Analysis",
+    "difficulty": "In-Depth",
+    "prompt": "I need to make a decision about [topic]. Step 1: Ask me 5 questions to understand the situation fully. Then wait for my answers before doing anything else.",
+    "tip": "Resist the urge to answer all 5 questions in one message — take them one at a time for a richer conversation."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Build on the AI's Last Answer",
+    "category": "Analysis",
+    "difficulty": "In-Depth",
+    "prompt": "Take the plan you just wrote and now write me a list of the 5 most important questions a skeptical stakeholder would ask. I'll use that list to pressure-test the plan before I present it.",
+    "tip": "This works best right after the AI produces something — use it as a second pass, not a standalone prompt."
+  },
+  {
+    "team": "Thought Partner",
+    "title": "Structured Options Analysis",
+    "category": "Analysis",
+    "difficulty": "In-Depth",
+    "prompt": "I'm weighing these options: [list them]. For each one, give me: the strongest argument for it, the strongest argument against it, and one condition under which it becomes the obvious right choice.",
+    "tip": "Include a 'do nothing' option in your list — it's often the most honest choice to stress-test."
+  },
+  {
+    "team": "Sales",
+    "title": "Prospect Research Brief",
+    "category": "Research",
+    "difficulty": "Quick Start",
+    "prompt": "You are a B2B sales researcher. Before I get on a discovery call, help me build a quick research brief on this prospect.\n\nCompany: [company name]\nIndustry: [industry]\nApproximate size: [number of employees or revenue range]\n\nPlease provide:\n1. What this type of company likely cares about most in relation to [your product or service]\n2. Common pain points for this industry relevant to [your solution]\n3. 3 smart questions I should ask to uncover their current situation\n4. Any regulatory or compliance angles I should be aware of (e.g. HIPAA for healthcare)\n\nKeep it concise — I need this before a call, not a research paper.",
+    "tip": "Add any news you've seen about the company or industry for even sharper insights."
+  },
+  {
+    "team": "Sales",
+    "title": "Discovery Call Prep Questions",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "I'm preparing for a discovery call with a prospect in the [industry] industry. They're evaluating [your product or service category].\n\nGenerate 10 thoughtful discovery questions that will help me:\n- Understand their current situation and its pain points\n- Uncover their real business drivers (cost, reliability, compliance, growth, efficiency)\n- Identify key decision-makers and the buying process\n- Discover any urgency or triggering events\n\nFormat as a numbered list. Include a brief note on what each question is trying to uncover.",
+    "tip": "Run this once per industry vertical and save the output — it becomes a reusable call prep template."
+  },
+  {
+    "team": "Sales",
+    "title": "Competitive Positioning",
+    "category": "Analysis",
+    "difficulty": "Going Deeper",
+    "prompt": "I'm selling [your product or service] and I'm going up against [competitor name] in a deal.\n\nPlease help me with competitive positioning:\n1. What are [competitor name]'s typical strengths that they lead with?\n2. What are their most commonly cited weaknesses or gaps?\n3. Where does a high-touch, consultative provider have an advantage?\n4. What 2-3 questions should I ask the prospect that will naturally surface where [competitor name] falls short?\n5. How should I handle it if the prospect says \"[competitor name] is cheaper\"?\n\nBe direct and practical. I'm in a competitive deal.",
+    "tip": "Ask follow-up: 'What objections have you heard about [competitor] from other clients?' to get real-world talking points.",
+    "alsoFor": [
+      "Leadership",
+      "Marketing"
+    ]
+  },
+  {
+    "team": "Sales",
+    "title": "Proposal Executive Summary",
+    "category": "Writing",
+    "difficulty": "Going Deeper",
+    "prompt": "Write a compelling executive summary for a solution proposal.\n\nClient name: [client name]\nIndustry: [industry]\nKey pain points they shared: [list 2-3 pain points]\nNumber of users/seats: [number]\nSolutions we're proposing: [list the products or services]\n\nThe executive summary should:\n- Open with a statement that shows we understand their business problem\n- Briefly describe the recommended solution and why it fits them specifically\n- Call out 2-3 key outcomes they can expect\n- Close with a forward-looking sentence about the partnership\n\nTone: confident, consultative, human. Not generic. Not full of jargon. 3-4 paragraphs max.",
+    "tip": "Paste in exact quotes from your discovery call notes — The AI will weave them in to make it feel personal."
+  },
+  {
+    "team": "Sales",
+    "title": "Follow-Up Email After Demo",
+    "category": "Communication",
+    "difficulty": "Quick Start",
+    "prompt": "Write a follow-up email after a product or service demo.\n\nContact name: [contact name and title]\nKey topics we covered in the demo: [list 2-3 things you showed or discussed]\nTheir main area of interest or question: [what they seemed most engaged by]\nProposed next step: [e.g. a follow-up call, a proposal, a reference call]\n\nThe email should:\n- Be warm but professional — not salesy\n- Reference something specific from the conversation so it doesn't feel templated\n- Briefly recap what we discussed (2-3 bullet points)\n- Make the next step crystal clear with a specific ask\n- Be under 200 words\n\nSubject line: also write 3 subject line options.",
+    "tip": "Write this within 2 hours of the demo while details are fresh — then let your AI assistant polish it."
+  },
+  {
+    "team": "Customer Success",
+    "title": "Onboarding Welcome Email",
+    "category": "Communication",
+    "difficulty": "Quick Start",
+    "prompt": "Write a warm, professional onboarding welcome email for a new [Your Company] client.\n\nClient name: [company name]\nIndustry: [industry]\nPrimary contact name: [first name]\nGo-live date: [date]\nKey solutions they're implementing: [list products or services]\n\nThe email should:\n- Feel personal and genuinely excited (not like a form letter)\n- Briefly tell them what to expect in the next few weeks\n- Name their dedicated point of contact\n- Give them 1 clear action item to take right now\n- Close with confidence that this was a great decision\n\nTone: warm, organized, reassuring. Under 250 words.",
+    "tip": "Personalize with one detail specific to their industry — it signals you understand their world."
+  },
+  {
+    "team": "Customer Success",
+    "title": "QBR Talking Points",
+    "category": "Planning",
+    "difficulty": "Going Deeper",
+    "prompt": "Help me prepare talking points for a Quarterly Business Review with an existing client.\n\nClient name: [client name]\nContract / account size: [approximate value or number of users]\nContract renewal timeline: [when does it come up?]\nKnown wins this quarter: [list any positive outcomes, resolved issues, features they're using well]\nKnown issues or concerns: [list anything that's been rocky or unresolved]\n\nPlease generate:\n1. A strong opening that acknowledges the relationship and sets a positive tone\n2. 3-4 talking points that reinforce the value we're delivering\n3. A clear and honest way to address any known issues (without being defensive)\n4. 2 questions to ask that will help us understand their evolving needs\n5. A smooth transition to discussing the renewal\n\nKeep it conversational — this is a meeting, not a report.",
+    "tip": "Run this the day before the QBR so you can refine the talking points based on last-minute context.",
+    "alsoFor": [
+      "Sales"
+    ]
+  },
+  {
+    "team": "Customer Success",
+    "title": "At-Risk Client Strategy",
+    "category": "Analysis",
+    "difficulty": "In-Depth",
+    "prompt": "I need help developing a retention strategy for a client who is showing churn signals.\n\nClient name: [client name]\nWhat signals I'm seeing: [e.g. slower responses, complaints about billing, asking about competitors, low platform adoption, escalations]\nContract status: [months until renewal / currently up for renewal]\nRelationship history: [brief note — have we had a good relationship? Any history of issues?]\nKey stakeholders at the client: [names/roles if known]\n\nPlease help me:\n1. Diagnose what's most likely driving the dissatisfaction based on the signals I've described\n2. Suggest 3 specific actions I can take in the next 2 weeks to stabilize the relationship\n3. Draft talking points for a \"save the relationship\" call\n4. Identify what I should offer vs. what I should hold back\n5. Flag any red flags that suggest the client may already be past the point of saving\n\nBe direct. I need a real strategy, not platitudes.",
+    "tip": "Share as much context as possible — the more specific the signals, the more targeted the strategy.",
+    "alsoFor": [
+      "Leadership"
+    ]
+  },
+  {
+    "team": "Customer Success",
+    "title": "Product Update Announcement",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "I need to communicate a product update to our clients in plain, accessible language.\n\n[Paste the technical release notes or product update details here]\n\nPlease rewrite this for a non-technical business audience. The goal is to:\n- Lead with what changed and why it matters to them (not how it was built)\n- Use plain language — no technical jargon\n- Format as a short email or announcement (under 200 words)\n- Include a brief \"what you need to do\" section if any action is required\n- End with who to contact with questions\n\nTone: informative, helpful, low-anxiety.",
+    "tip": "Add 'Our clients are mostly [industry] businesses with [tech savvy level]' for a more tailored rewrite.",
+    "alsoFor": [
+      "Marketing"
+    ]
+  },
+  {
+    "team": "Customer Success",
+    "title": "Escalation Summary for Leadership",
+    "category": "Communication",
+    "difficulty": "Going Deeper",
+    "prompt": "I need to write a concise escalation summary to share with leadership about an active client issue.\n\n[Paste the relevant ticket notes, email thread, or describe the situation here]\n\nPlease produce a structured summary that includes:\n1. **Situation** — What is happening and with which client (1-2 sentences)\n2. **Impact** — What is the business/operational impact on the client\n3. **Timeline** — Key events and when they occurred\n4. **Current status** — Where things stand right now\n5. **Actions taken** — What has been done so far\n6. **Next steps** — What happens next and who owns it\n7. **Ask of leadership** — What, if anything, do you need from them\n\nKeep it factual, not defensive. Leadership needs clarity, not justification.",
+    "tip": "Write this before you go into the leadership meeting, not during — it will help you stay calm and focused.",
+    "alsoFor": [
+      "Leadership",
+      "Implementation"
+    ]
+  },
+  {
+    "team": "Channel Partner",
+    "title": "Partner Onboarding Checklist",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "Create a comprehensive step-by-step onboarding checklist for a new [Your Company] channel partner.\n\nPartner company name: [partner name]\nTheir industry focus / typical clients: [e.g. healthcare, SMB, enterprise, municipalities]\nPartner type: [e.g. VAR, agent, MSP, consultant]\n\nThe checklist should cover:\n1. Initial paperwork and agreements\n2. Portal access and tools setup\n3. Product training (what they need to know first)\n4. First deal support (how we help them close their first client)\n5. Ongoing resources and who their go-to contacts are\n\nFormat as a numbered checklist with clear ownership labels (Partner / Us). Keep it practical — something a new partner rep can actually follow.",
+    "tip": "Customize one section at a time based on what the partner already knows — don't overwhelm them on day one."
+  },
+  {
+    "team": "Channel Partner",
+    "title": "Partner-Facing FAQ Document",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "Generate a FAQ document that our channel partners can use when talking to their end clients about [Your Company].\n\nProduct or feature: [product name or service — e.g. your core platform, a specific feature, or a program]\n\nThe FAQ should:\n- Answer the 8-10 most common questions an end client would ask\n- Be written in plain language (not telecom jargon)\n- Address concerns about switching, reliability, pricing model, and support\n- Include a brief \"Why [Your Company]\" answer that partners can use verbatim\n- Be formatted so partners can easily paste it into their own materials\n\nAudience: business decision-makers who are non-technical.",
+    "tip": "After generating, share it with one of your most active partners for a gut-check before distributing."
+  },
+  {
+    "team": "Channel Partner",
+    "title": "Deal Registration Status Email",
+    "category": "Communication",
+    "difficulty": "Quick Start",
+    "prompt": "Draft a professional email to a channel partner about their deal registration status.\n\nPartner name: [partner name / partner rep name]\nEnd client name: [client name]\nDeal registration status: [e.g. approved / pending review / needs more information / there's a conflict]\nAny context or special instructions: [notes]\n\nThe email should:\n- Be direct and friendly — these are our partners, treat them like colleagues\n- Clearly communicate the status and what it means for them\n- Include any next steps required (from them or from us)\n- Set a realistic expectation for timeline if applicable\n\nUnder 150 words.",
+    "tip": "Even a brief positive email when a deal is approved goes a long way in building partner loyalty."
+  },
+  {
+    "team": "Channel Partner",
+    "title": "60-Minute Partner Training Agenda",
+    "category": "Planning",
+    "difficulty": "Going Deeper",
+    "prompt": "Build a 60-minute training agenda for a channel partner session on a product or feature.\n\nProduct / topic: [product name or feature — e.g. your platform, a key module, a new program]\nAssumed knowledge level of the partners attending: [e.g. new to telecom / experienced VARs / mixed]\nGoal of the session: [e.g. enable them to sell, enable them to demo, answer common client objections]\n\nPlease create a timed agenda (e.g. 0:00–0:10, etc.) that includes:\n- An opening that gets them engaged quickly\n- Product overview focused on business value (not just features)\n- A competitive differentiator segment\n- Objection handling practice\n- Time for Q&A\n- Clear takeaways and next steps\n\nInclude a note on what materials we should prepare in advance for each segment.",
+    "tip": "Send the agenda to partners 48 hours in advance so they come with their real questions ready."
+  },
+  {
+    "team": "Channel Partner",
+    "title": "Partner Escalation Response",
+    "category": "Communication",
+    "difficulty": "In-Depth",
+    "prompt": "Draft a professional response to a channel partner who is frustrated about a support delay or unresolved issue affecting their end client.\n\nIssue description: [describe the problem]\nCurrent status of the issue: [where things stand]\nExpected resolution timeline: [your best honest estimate]\nWhat has been done so far: [actions taken]\nRelationship context: [is this a new partner, long-term partner, high-volume partner?]\n\nThe response should:\n- Acknowledge their frustration genuinely — don't minimize it\n- Take ownership without over-apologizing or making excuses\n- Clearly state what is happening and what comes next\n- Give them something specific they can tell their end client\n- Close in a way that reinforces the partnership\n\nTone: accountable, calm, and partner-first. Not corporate-defensive.",
+    "tip": "Read this out loud before sending — if it sounds like a PR statement, it needs more humanity."
+  },
+  {
+    "team": "Implementation",
+    "title": "Cutover Day Runbook",
+    "category": "Planning",
+    "difficulty": "Going Deeper",
+    "prompt": "Generate a structured day-of cutover checklist for a software or platform go-live.\n\nClient name: [client name]\nNumber of locations: [number]\nScheduled go-live time: [time and timezone]\nKey contacts day-of: [client contact name/number, internal PM name, technical lead]\nSpecial considerations: [e.g. call center, 24/7 operation, specific departments going live first]\n\nPlease produce a time-sequenced runbook that includes:\n- T-minus prep steps (night before / morning of)\n- The cutover sequence itself (step by step)\n- Verification checks after cutover\n- Rollback trigger criteria (when do we escalate or pull back?)\n- Communication checkpoints (when do we update the client?)\n- Post-cutover monitoring window\n\nFormat as a checklist with time stamps and clear ownership labels (Client / PM / Technical).",
+    "tip": "Walk through this with your technical team the day before so everyone knows their role before go-live."
+  },
+  {
+    "team": "Implementation",
+    "title": "Project Kickoff Agenda",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "Create a kickoff meeting agenda for a new software implementation project.\n\nClient name: [client name]\nNumber of users: [number]\nNumber of locations: [number]\nKey stakeholders attending: [list names/roles if known]\nEstimated project duration: [weeks/months]\nKey implementation milestones: [list if known, e.g. discovery, provisioning, training, cutover]\n\nThe agenda should cover:\n1. Introductions and roles\n2. Project scope and objectives review\n3. Timeline and milestone walkthrough\n4. Roles and responsibilities (client vs. [Your Company])\n5. Communication cadence (how we'll stay in sync)\n6. Open questions and parking lot\n\nInclude suggested time allocations for each section. Total meeting time: 60 minutes.",
+    "tip": "Send this to the client 3 days before the meeting and ask them to add agenda items — it sets a collaborative tone."
+  },
+  {
+    "team": "Implementation",
+    "title": "Weekly Status Update to Client",
+    "category": "Communication",
+    "difficulty": "Quick Start",
+    "prompt": "Write a professional weekly project status update email for an implementation client.\n\nProject status: [On Track / At Risk / Delayed]\nClient name: [client name]\nKey milestones completed this week: [list]\nKey milestones planned for next week: [list]\nCurrent blockers or risks: [list, or write \"none\"]\nAny decisions needed from the client: [list, or write \"none\"]\n\nThe email should:\n- Open with a clear status signal (on track, at risk, etc.) — don't bury the lead\n- Be scannable — use short bullets, not paragraphs\n- Be honest about risks without being alarmist\n- Close with a specific ask or next action if one exists\n\nUnder 200 words. Subject line: also suggest one.",
+    "tip": "Send this on the same day every week — consistency builds trust with clients more than any individual update.",
+    "alsoFor": [
+      "Customer Success"
+    ]
+  },
+  {
+    "team": "Implementation",
+    "title": "Risk Log Summary for Leadership",
+    "category": "Analysis",
+    "difficulty": "Going Deeper",
+    "prompt": "Summarize open project risks for a leadership review in a clear, scannable format.\n\n[Paste your current risk log, or list the risks in bullet form here]\n\nFor each risk, please produce:\n- **Risk**: one sentence description\n- **Likelihood**: Low / Medium / High\n- **Impact if it occurs**: one sentence\n- **Current mitigation**: what's being done\n- **Owner**: who is responsible for managing it\n- **Status**: Open / Being Monitored / Escalated\n\nThen add a brief executive summary (2-3 sentences) that tells leadership what they most need to pay attention to right now.",
+    "tip": "Sort risks by impact before presenting — leadership wants to know the top 2-3, not a list of 15."
+  },
+  {
+    "team": "Implementation",
+    "title": "Post-Implementation Lessons Learned",
+    "category": "Analysis",
+    "difficulty": "In-Depth",
+    "prompt": "Help me write a post-implementation lessons learned document for a completed project.\n\nWhat went well: [list your observations]\nWhat didn't go as planned: [list challenges, delays, or failures]\nWhat you'd do differently next time: [your reflections]\nAny client feedback received: [positive or critical]\nProject type and rough timeline: [brief description]\n\nPlease structure this as:\n1. **Project Summary** (2 sentences)\n2. **What Worked Well** (with brief explanations of why)\n3. **What We'd Improve** (with specific, actionable recommendations — not vague)\n4. **Recommendations for Future Projects of This Type**\n5. **Client Relationship Notes** (what did we learn about managing this type of client?)\n\nMake this genuinely useful, not a checkbox exercise. Be candid.",
+    "tip": "Do this within 2 weeks of project close, while memories are fresh — waiting longer means losing the most valuable details."
+  },
+  {
+    "team": "Marketing",
+    "title": "SEO Blog Post Outline",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "Create an SEO-optimized blog post outline for [Your Company].\n\nTopic: [topic — e.g. a trend, a challenge, or a how-to relevant to your industry]\nTarget audience: [e.g. IT directors, operations managers, facility administrators]\nPrimary keyword to target: [keyword if known, or ask your AI assistant to suggest one]\nApproximate word count: [e.g. 800-1200 words]\n\nThe outline should include:\n- A compelling H1 title (give 3 options)\n- Meta description (under 160 characters)\n- H2 and H3 subheadings that reflect how the audience searches\n- Key points to cover in each section\n- A suggested CTA at the end\n\nNote: [Your Company] is a [brief description of your brand/positioning]. Tone should be authoritative but accessible — not overly technical.",
+    "tip": "Add 'Here are 3 questions we get asked about this topic:' before sending — it makes the outline much more targeted."
+  },
+  {
+    "team": "Marketing",
+    "title": "LinkedIn Post",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "Write a LinkedIn post for [Your Company] about a company update, win, or announcement.\n\nWhat's the news: [describe the update or announcement in plain language — a new client, a product launch, an award, a team hire, an insight]\nTone preference: [e.g. celebratory / educational / thought leadership / behind-the-scenes]\nCall to action: [what do you want people to do — comment, learn more, reach out?]\n\nPlease write:\n1. A primary version (150-200 words, professional but warm)\n2. A shorter punchy version (under 100 words)\n3. 5 hashtag suggestions\n\nThe post should feel like it comes from a real person at a company that genuinely cares about their clients — not a press release.",
+    "tip": "The shorter version often performs better — test both and see which one gets more engagement."
+  },
+  {
+    "team": "Marketing",
+    "title": "Customer Case Study Draft",
+    "category": "Writing",
+    "difficulty": "Going Deeper",
+    "prompt": "Write a customer case study for [Your Company] based on these details:\n\nClient industry: [industry — keep anonymous or use name if approved]\nThe challenge they faced: [describe their communications problem or pain point before working with us]\nSolution deployed: [what we implemented — describe the product, service, or program]\nOutcome / results: [what changed for them — quantify if possible: e.g. reduced dropped calls by X%, streamlined to 1 platform]\nAny direct quotes or approval status: [do we have a quote, or should you generate a plausible placeholder?]\n\nPlease structure as:\n1. **Headline** (3 options)\n2. **The Challenge** (1-2 paragraphs)\n3. **The Solution** (1-2 paragraphs)\n4. **The Results** (bullet points + a brief narrative)\n5. **Client Quote** (real or [PLACEHOLDER])\n6. **Why [Your Company]** (2-3 sentences)\n\nLength: ~500 words. Tone: confident, client-centric, not salesy.",
+    "tip": "Get one real data point from the client (any metric) — a single number makes the whole case study more credible."
+  },
+  {
+    "team": "Marketing",
+    "title": "Email Campaign Subject Lines",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "Generate 10 email subject line variations for a marketing campaign.\n\nCampaign topic: [what is the email about?]\nTarget audience: [who is receiving this — industry, role, or stage in the funnel]\nGoal of the email: [open a conversation / drive a demo request / announce something / re-engage cold leads]\nTone range: [professional only / can be playful / urgency-driven / curiosity-driven]\n\nFor each subject line, note the tactic being used (e.g. curiosity gap, social proof, direct value, urgency, question).\n\nAlso suggest:\n- 1 preview text to pair with the top subject line\n- Which subject line you'd A/B test first and why",
+    "tip": "Ask Claude to rewrite your top pick three different ways — sometimes the second variation is the winner."
+  },
+  {
+    "team": "Marketing",
+    "title": "Industry Landing Page Copy",
+    "category": "Writing",
+    "difficulty": "In-Depth",
+    "prompt": "Write web copy for an industry-specific landing page for [Your Company].\n\nIndustry: [industry name — e.g. healthcare, education, legal, logistics, finance, retail]\nTheir top communication pain points: [list 2-3 things this industry struggles with around phone/communications]\nKey solutions we offer this industry: [list the products, services, or programs you offer this vertical]\nPage goal: [drive a demo request / contact form / phone call]\n\nPlease write:\n1. **Hero Section**: H1 headline + subheadline + CTA button text\n2. **Pain Point Section**: 3 pain points with brief copy for each\n3. **Solution Section**: How [Your Company] addresses these (3 benefit statements)\n4. **Social Proof Hook**: A placeholder for a client quote or stat\n5. **CTA Section**: Closing copy + CTA\n\nTone: direct, knowledgeable, human. [Your Company] is a trusted partner, not just a vendor.",
+    "tip": "Start with your best-performing industry and refine the copy with real client language before building the page."
+  },
+  {
+    "team": "HR",
+    "title": "Job Description",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "Write a job description for an open role at [Your Company].\n\nRole title: [job title]\nKey responsibilities: [list 4-5 main things this person will do]\nMust-have experience: [list 2-3 non-negotiables]\nNice-to-have skills: [list 1-3 preferred qualifications]\nTeam / reports to: [if known]\nWork arrangement: [remote / hybrid / on-site — include location if applicable]\n\nThe job description should:\n- Open with a compelling \"about the role\" paragraph (not a generic company boilerplate)\n- Use clear, human language — not bureaucratic HR-speak\n- Be specific about what success looks like in the role\n- Attract people who want to grow, not just fill a seat\n- Be appropriately concise — under 400 words\n\nAlso suggest 3 job posting titles to use for maximum search visibility.",
+    "tip": "Share the draft with the hiring manager before posting — they'll catch missing details that save you time later."
+  },
+  {
+    "team": "HR",
+    "title": "Behavioral Interview Questions",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "Generate a behavioral interview question set for a specific role.\n\nRole title: [role title, e.g. Customer Success Manager / Sales Representative / Implementation PM]\nTop 3 skills or qualities you're hiring for: [list them — e.g. accountability, communication under pressure, technical aptitude]\nAny specific scenarios this role will face: [e.g. handling difficult clients, managing competing priorities, working cross-functionally]\n\nPlease generate:\n- 3 behavioral questions per skill area (using the STAR format: Situation, Task, Action, Result)\n- 1 follow-up probe question for each main question\n- What a strong answer looks like for each question (brief notes for the interviewer)\n\nFormat as a structured interview guide.",
+    "tip": "Use these as a guide, not a script — the best interviews feel like conversations, not interrogations."
+  },
+  {
+    "team": "HR",
+    "title": "New Hire Announcement Email",
+    "category": "Communication",
+    "difficulty": "Quick Start",
+    "prompt": "Draft a warm internal email announcing a new team member joining [Your Company].\n\nNew hire's name: [name]\nRole / title: [role]\nStart date: [date]\nTeam or department: [team they're joining]\nOne fun fact about them: [something personal they're comfortable sharing]\nManager's name: [optional]\n\nThe email should:\n- Feel like it was written by a real person who is genuinely excited, not a form letter\n- Give the team enough context to know who this person is and how to connect with them\n- Invite people to reach out and welcome them\n- Be under 150 words\n\nSubject line: also suggest one.",
+    "tip": "Ask the new hire to share their own fun fact before you write this — it makes the intro far more memorable."
+  },
+  {
+    "team": "HR",
+    "title": "Performance Review Talking Points",
+    "category": "Planning",
+    "difficulty": "Going Deeper",
+    "prompt": "Help me prepare for a performance review conversation with an employee.\n\nEmployee's role: [title and brief description of what they do]\nTheir key areas of strength this review period: [list 2-3 specific things they've done well]\nAreas to develop or improve: [list 1-2 honest development areas — be specific, not vague]\nAny significant events this period: [promotions, misses, changes in scope, difficult situations]\nTone goal: [e.g. primarily developmental / recognition-focused / course-correction needed]\n\nPlease generate:\n1. An opening that sets a positive, candid tone\n2. Talking points for each strength (with language that feels specific, not generic)\n3. Talking points for development areas (honest but constructive — not a pile-on)\n4. 2 forward-looking questions to invite their input\n5. A closing that leaves them feeling clear on expectations and supported\n\nNote: This is a conversation guide, not a script.",
+    "tip": "Practice the development area talking points out loud first — they're the ones most people stumble over."
+  },
+  {
+    "team": "HR",
+    "title": "Policy Plain-Language Summary",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "Rewrite a company policy document in plain, accessible language that employees will actually read.\n\n[Paste the policy text here]\n\nPlease rewrite it so that:\n- A new employee with no HR background can understand it in one read\n- The key rules and expectations are crystal clear\n- Any actions required of employees are stated as simple steps\n- The tone is respectful and professional — not threatening or bureaucratic\n- It is formatted with clear headers and bullets where appropriate\n\nAlso add a \"Key Takeaways\" box at the top with 3-5 bullet points summarizing the most important points.\n\nKeep the length similar to the original, or shorter.",
+    "tip": "Test it: send to one non-HR employee and ask 'What are you supposed to do based on this?' — their answer reveals gaps."
+  },
+  {
+    "team": "Finance",
+    "title": "Monthly Report Narrative",
+    "category": "Writing",
+    "difficulty": "Going Deeper",
+    "prompt": "Write a plain-language narrative to accompany a financial summary report.\n\nPlease describe or paste the key numbers:\n[e.g. Revenue: $X vs. plan of $Y (Z% variance), Key cost drivers, notable changes month-over-month, any one-time items]\n\nThe narrative should:\n- Lead with the headline: are we above or below plan, and by how much?\n- Explain the key drivers in plain language (not accounting speak)\n- Note any one-time or unusual items that affected the numbers\n- Be forward-looking: what does this mean for next month or quarter?\n- Be under 300 words\n\nAudience: leadership team, some of whom are not finance professionals.",
+    "tip": "Write a one-sentence 'so what' at the top before you run this — it helps the AI stay focused on what matters most."
+  },
+  {
+    "team": "Finance",
+    "title": "Vendor Comparison",
+    "category": "Analysis",
+    "difficulty": "Going Deeper",
+    "prompt": "Help me compare two vendors or pricing options so I can make a clear recommendation.\n\nVendor A: [name and key details — pricing, terms, capabilities, support model]\nVendor B: [name and key details — pricing, terms, capabilities, support model]\nDecision criteria (what matters most): [e.g. total cost, contract flexibility, support quality, integration capability]\nOur context: [brief note on what we're using this for and any constraints]\n\nPlease produce:\n1. A side-by-side comparison table\n2. A brief analysis of where each vendor wins and loses\n3. A recommended choice with reasoning\n4. Any risks or caveats in the recommendation\n5. Questions I should ask each vendor before finalizing\n\nBe direct — I need a recommendation, not just a summary.",
+    "tip": "Add 'Our biggest risk with this decision is X' to get the AI to weight that factor more heavily in the analysis."
+  },
+  {
+    "team": "Finance",
+    "title": "Contract Plain-Language Summary",
+    "category": "Analysis",
+    "difficulty": "In-Depth",
+    "prompt": "Summarize a vendor or client contract in plain language so I can understand what I'm agreeing to.\n\n[Paste the contract clauses, key sections, or full contract text here]\n\nPlease produce:\n1. **What this contract covers** — scope and services in plain terms\n2. **Key obligations** — what each party must do\n3. **Payment terms** — how much, when, and under what conditions\n4. **Termination clauses** — how and when either party can exit\n5. **Liability and indemnification** — what are we on the hook for?\n6. **Anything unusual or worth flagging** — clauses that stand out as one-sided, vague, or risky\n7. **My top 3 questions for legal review** before signing\n\nNote: This is not legal advice — it's a plain-language summary to help me have an informed conversation with legal counsel.",
+    "tip": "Always have legal review any contract before signing — use this summary to ask better questions, not replace that review.",
+    "alsoFor": [
+      "Sales",
+      "Leadership"
+    ]
+  },
+  {
+    "team": "Finance",
+    "title": "Budget Justification",
+    "category": "Writing",
+    "difficulty": "Going Deeper",
+    "prompt": "Write a business case to justify a budget request.\n\nWhat I'm requesting: [describe the spend — tool, headcount, service, equipment, etc.]\nTotal cost: [amount and whether it's one-time or recurring]\nBusiness reason / problem this solves: [why do we need this?]\nExpected ROI or benefit: [time saved, revenue enabled, risk reduced, cost avoided — be as specific as possible]\nAlternatives considered: [did you look at other options? why is this the right one?]\nUrgency: [is there a deadline or consequence to not acting?]\n\nPlease write a 1-page business case that:\n- Leads with the ask and the business justification\n- Quantifies the benefit where possible\n- Addresses likely objections\n- Closes with a clear recommendation and next step\n\nTone: confident and factual.",
+    "tip": "The strongest budget cases quantify the cost of inaction — ask your AI assistant to add that angle if you forgot to include it."
+  },
+  {
+    "team": "Finance",
+    "title": "Standard Operating Procedure",
+    "category": "Planning",
+    "difficulty": "Quick Start",
+    "prompt": "Help me document a recurring operational process as a Standard Operating Procedure (SOP).\n\nProcess name: [what is this process called?]\nWho performs this process: [role or team]\nHow often it runs: [daily / weekly / monthly / as-needed]\nRough steps as I know them: [describe the process in rough notes — don't worry about perfect formatting]\n\nPlease produce an SOP that includes:\n1. **Purpose** — why this process exists\n2. **Scope** — who does it and when\n3. **Prerequisites** — what needs to be in place before starting\n4. **Step-by-Step Instructions** — numbered, clear, actionable\n5. **Quality Checks** — how do you know it was done correctly?\n6. **Common Issues and Fixes** — 2-3 things that often go wrong\n7. **Owner** — who is responsible for keeping this SOP current\n\nFormat for easy scanning.",
+    "tip": "Have the person who actually does the process review the draft — they'll catch the steps you described incorrectly."
+  },
+  {
+    "team": "Leadership",
+    "title": "All-Hands Talking Points",
+    "category": "Communication",
+    "difficulty": "Going Deeper",
+    "prompt": "Generate talking points for a company all-hands meeting.\n\nTheme or focus of the meeting: [e.g. Q1 results, new strategy, culture reset, celebrating a milestone]\nKey updates to communicate: [list 3-4 things leadership needs to share]\nTone: [e.g. energizing / candid / forward-looking / recognition-focused]\nAnything sensitive to navigate carefully: [layoffs, a difficult quarter, a major change — if applicable]\nAudience: [all staff across Sales, CS, Operations, Marketing, Finance, HR — approximately X people]\n\nPlease produce:\n1. An opening that gets the room's attention and sets the right tone\n2. Talking point for each key update (2-3 sentences each, designed to be spoken, not read)\n3. A section that acknowledges what's been hard (if applicable) — honest, not dismissive\n4. A forward-looking close that leaves people feeling clear and motivated\n5. 2-3 moments to invite participation or questions\n\nTotal speaking time: approximately 20 minutes.",
+    "tip": "Practice the opening out loud — the first 60 seconds of an all-hands sets the entire emotional tone."
+  },
+  {
+    "team": "Leadership",
+    "title": "Strategic Decision Framework",
+    "category": "Analysis",
+    "difficulty": "In-Depth",
+    "prompt": "Help me structure a decision memo for an important business decision.\n\nThe decision: [describe the decision that needs to be made]\nOptions under consideration: [list 2-4 options, including the \"do nothing\" option if relevant]\nKey trade-offs: [what are the main tensions — cost vs. speed, risk vs. growth, short-term vs. long-term?]\nStakeholders who will be affected: [who has a stake in this decision?]\nTimeline: [when does this decision need to be made?]\nWhat we know: [key facts, data, or constraints]\nWhat we don't know: [uncertainties that affect this decision]\n\nPlease produce a structured decision memo that:\n1. Frames the decision clearly (what exactly are we deciding?)\n2. Lays out each option with pros, cons, and risks\n3. Identifies the key assumptions behind each option\n4. Makes a recommended choice with clear reasoning\n5. Notes what would need to be true for a different option to be better\n6. Proposes next steps if the recommendation is approved",
+    "tip": "Share this with one trusted colleague before presenting — a second perspective often reveals a hidden option."
+  },
+  {
+    "team": "Leadership",
+    "title": "Board Update Summary",
+    "category": "Writing",
+    "difficulty": "In-Depth",
+    "prompt": "Draft a concise board-level update for [Your Company].\n\nPeriod covered: [quarter / month]\nPerformance highlights: [key wins, revenue milestones, notable client additions or renewals]\nChallenges: [what headwinds are we facing — be honest]\nKey initiatives in progress: [what strategic work is underway]\nAsks of the board: [anything you need from them — decisions, introductions, guidance]\nMetrics to include: [list any specific numbers you want highlighted]\n\nPlease produce a structured board update (approximately 1 page) that:\n- Leads with the most important headline\n- Is scannable (use headers and bullets)\n- Is honest about challenges without dwelling on them\n- Frames asks clearly and specifically\n- Ends with a clear outlook statement\n\nTone: confident, transparent, concise. Boards value clarity over polish.",
+    "tip": "Board members read many updates — lead with the one thing you most want them to remember."
+  },
+  {
+    "team": "Leadership",
+    "title": "Competitive Landscape Snapshot",
+    "category": "Research",
+    "difficulty": "Going Deeper",
+    "prompt": "Summarize the current competitive landscape in [your industry or market].\n\nFocus area: [choose one or more: pricing dynamics / product features / market positioning / a specific competitor / emerging threats]\nOur context: [[Your Company] is a [brief description — e.g. regional/national/B2B provider focused on X, serving Y industries or customer types]]\n\nPlease provide:\n1. A brief market overview (where the space is heading)\n2. Key competitors and how they position themselves\n3. Where high-touch regional providers have a natural advantage\n4. Where we face the most pressure\n5. 2-3 strategic implications for how we should think about our positioning\n\nNote: Use your knowledge of the industry up to your training cutoff. Flag anything I should verify with current sources.",
+    "tip": "Follow up with: 'What is the single most important thing a company in this space should do to stay competitive?' for a sharper strategic lens."
+  },
+  {
+    "team": "Leadership",
+    "title": "Culture Pulse Internal Message",
+    "category": "Communication",
+    "difficulty": "Quick Start",
+    "prompt": "Write an internal message from leadership to the [Your Company] team on culture, values, or a milestone.\n\nThe occasion or theme: [e.g. company anniversary, recognizing a team effort, reinforcing a value, entering a new year/quarter, acknowledging a hard stretch]\nKey message you want to land: [what do you most want people to feel or understand after reading this?]\nAny specific team or individual to recognize: [optional]\nTone: [choose: inspiring / warm / candid / celebratory / grounding]\n\nThe message should:\n- Sound like a real human being wrote it — not corporate-speak\n- Be under 250 words\n- Name something specific (an example, a moment, a behavior) that makes it feel real\n- End with a call to connection — invite people to respond, share, or reach out\n\nAlso suggest a subject line.",
+    "tip": "The most memorable culture messages name a specific person or moment — generalities don't land, specifics do."
+  },
+  {
+    "team": "Email Connector",
+    "title": "Morning Email Triage",
+    "category": "Analysis",
+    "difficulty": "Quick Start",
+    "prompt": "I've connected my email via the Email Connector. Please review my unread emails and help me triage them.\n\nFor each unread email, please:\n1. Summarize what it's about in one sentence\n2. Flag the urgency: Urgent / Needs a response today / Can wait / FYI only\n3. Identify if any action is required, and what that action is\n4. Group them by: Needs my response / Needs someone else's attention / No action needed\n\nStart with the most urgent. I want to process my inbox in under 10 minutes.",
+    "tip": "Run this at the start of your day before opening individual emails — it prevents inbox rabbit holes."
+  },
+  {
+    "team": "Email Connector",
+    "title": "Draft Reply from Email Thread",
+    "category": "Writing",
+    "difficulty": "Quick Start",
+    "prompt": "I've connected my email via the Email Connector. Please read the email thread I'm going to share and draft a reply for me.\n\n[Paste the email thread here, or describe which thread to access]\n\nMy intent with the reply: [e.g. agree to the meeting / push back on the timeline / ask for clarification / close the loop / decline politely]\nTone: [professional / warm / direct / formal]\nAny specific points I want to make sure are included: [list them, or write \"none\"]\n\nPlease draft a reply that:\n- Responds to the key points raised\n- Is clear and appropriately concise\n- Sounds like me — not like a form letter\n- Includes a clear next step if one is needed\n\nAlso suggest a subject line update if the thread has drifted off topic.",
+    "tip": "Add 'My usual communication style is X' once to give your AI assistant a consistent voice to match going forward."
+  },
+  {
+    "team": "Email Connector",
+    "title": "Action Items from Email",
+    "category": "Analysis",
+    "difficulty": "Quick Start",
+    "prompt": "I've connected my email via the Email Connector. Please scan my recent emails (last [X days / X emails]) and pull out all action items.\n\nFor each action item found, please list:\n- What needs to be done\n- Who it's assigned to (me, or someone else I need to follow up with)\n- Any deadline mentioned (or \"no deadline stated\")\n- The email or thread it came from\n\nThen give me a prioritized to-do list based on urgency and what's waiting on me specifically.\n\nIgnore newsletters, automated notifications, and anything clearly informational.",
+    "tip": "Run this on Friday afternoon to build your task list for the following week — it takes 2 minutes and nothing slips through."
+  },
+  {
+    "team": "Email Connector",
+    "title": "Summarize a Document or File",
+    "category": "Analysis",
+    "difficulty": "Quick Start",
+    "prompt": "I have a document in my connected files that I need to understand quickly.\n\n[Paste the document content here, or describe the file you want summarized]\n\nPlease provide:\n1. A 3-5 sentence executive summary — what is this document about and what does it conclude or recommend?\n2. Key facts, numbers, or decisions it contains (bullet points)\n3. Any action items or deadlines mentioned\n4. Anything I should pay particular attention to or flag for review\n\nIf the document is a contract or agreement, also note: the key parties, the term length, and any clauses that stand out.",
+    "tip": "Use this before any meeting where you were sent a document to review — it takes 30 seconds and helps you show up prepared."
+  },
+  {
+    "team": "Email Connector",
+    "title": "Compare Two Documents",
+    "category": "Analysis",
+    "difficulty": "Going Deeper",
+    "prompt": "I have two versions of a document in my connected files. Please compare them and tell me what changed.\n\n[Paste Document Version 1 here — or describe it]\n\n[Paste Document Version 2 here — or describe it]\n\nPlease tell me:\n1. What was added in the new version\n2. What was removed or changed\n3. Whether the changes are substantive (affect meaning, obligations, or decisions) or cosmetic (formatting, typos)\n4. Any changes I should specifically review before approving or signing\n5. Your overall read: is Version 2 better, worse, or roughly equivalent to Version 1?",
+    "tip": "Especially useful for contract redlines — paste both versions and ask the AI to flag any new liability language."
+  },
+  {
+    "team": "Email Connector",
+    "title": "Meeting Prep from Recent Emails",
+    "category": "Planning",
+    "difficulty": "Going Deeper",
+    "prompt": "I have a meeting coming up with [person/team/client name] on [topic]. I've connected my email via the Email Connector. Please review recent email threads involving [their name / this topic] to help me prepare.\n\nBased on our email history, please tell me:\n1. What have we been discussing or working on with this person/team?\n2. Are there any open issues, unresolved questions, or commitments I made that I should follow up on?\n3. What's the most recent status of anything we're working on together?\n4. Are there any tensions, pending decisions, or things I should be careful about going into this meeting?\n\nThen: suggest 3 specific things I should bring up or have ready for this meeting.",
+    "tip": "Run this 30 minutes before any client call — it takes less time than re-reading a thread and gives you better recall."
+  }
+]
